@@ -6,8 +6,8 @@ sources:
     schema: "{{ env_var('DBT_SCHEMA', 'zoomcamp') }}"
       # loaded_at_field: record_loaded_at
     tables:
-      - name: green_tripdata
-      - name: yellow_tripdata
+      - name: greentripdata_19_20
+      - name: yellowtripdata_19_20
          # freshness:
            # error_after: {count: 6, period: hour}
 
